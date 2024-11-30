@@ -1,4 +1,3 @@
-
 _G.kick = false
 local Pedo = {
     1135910299, -- Havelic
@@ -42,139 +41,6 @@ game:GetService("Players").PlayerAdded:Connect(function(r)
     end
 end)  
 local listed = {
-485424208, -- binfaded147
-4789345039, -- kydb06
-834205524, -- baovn993
-1216587424, -- BTT_xXxZunChanXGsSs
-1485440429, -- hieutrungze
-1566703867, -- Ekko_gaming10
-3913846312, -- anhlapro1aa
-2451054123, -- hoan123444421
-1811121760, -- ChanhProGamer
-5027369692, -- QuaLeKhongLo
-1141261219, -- bemancau
-2614833950, -- haodepzainhat123456
-1708655181, -- Cooki_Hieu
-818126717, -- chanhcho200912
-4960088701, -- PenikTrugDaiMu
-463465033, -- vuichtuan09
-4475140933, -- lekiet07989
-4513872025, -- Tommy27h
-4966584607, -- NgocTrinhh2k3
-1177968786, -- btthanh123
-4810192848, -- modesosinh7
-635645976, -- TuanKhaiCFL
-4446507245, -- BaoTrumToxic
-314763640, -- letranminh5
-1290417002, -- ccqn004
-1408212935, -- Kirito_vnc
-3777705947, -- Dragon_Xayad
-2370889865, -- bollken2
-1529597528, -- datag10
-3170802162, -- issknshsusu
-1411247414, -- TNAE_SsThanhKunnsS
-3286439888, --NhanBoy07
-3199047367, -- VTAZONE2008
-986848272, -- TAU115TAI
-304648368, -- produydn1
-4141021120, -- iwxoxz
-4475215238, -- luongnhan52916
-712851393, -- trunghuy5
-618465845, -- noobdeptrai400
-233784440, -- KaraShaw7
-4863899811, -- NevandaNavas
-4795964374, -- tendcm
-1570525640, -- XxNguyen_SamaxX
-314763640, -- letranminh5
-876377767, -- vgfakemoon3
-1450900444, -- cyiutr1
-1220151559, -- dokaizen
-1329011010, -- hotfruit2510
-1810666877, -- Rareboxzs1
-3468253464, -- bao10_1
-2860632931, -- XxPhongMagmaxX
-857977140, -- xccfdhdi
-1792637340, -- Power_Gaming2k7
-3647697808, -- PeXuuZuTo
-1171387409, -- khangngauloi
-2635741505, -- BlackDragond123
-1943377434, -- Joker_XxTinhDarkxX
-3451151379, -- Nghiasen_legendary
-3993347755, -- conketlol5
-4669089478, -- nguuyenquanghuytu
-4872236019, -- nguyenquangdat012
-4736354449, -- nzxz13
-634413900, -- ShenFamus
-2605103756, -- Royal_Domination
-4059421765, -- accquaydffirstsea35
-4058001938, -- accquaydffirstsea34
-4056862638, -- accquaydffirstsea33
-4056585434, -- accquaydffirstsea32
-4056142639, -- accquaydffirstsea31
-4740726618, -- chemhan764239
-4055494125, -- accquaydffirstsea30
-4945123695, -- 1_xSxBuildTheSun
-4639567199, -- nguyenquanghuytu
-4641381230, -- anhnghiapro16
-2226394702, -- HadesTrum
-4732817476, -- ShipTrox
-4087605807, -- tinhkhenh1
-1814938572, -- TM_HuyDepZai
-1309541634, -- thaideptrai32g
-170967030, -- thai752005
-1309447883, -- thaiabbc
-2529508762, -- ChauBaolam29
-1347848913, -- cucsilau345
-1544046636, -- nghiahahi
-1855776836, -- hungfc573
-1165679906, -- duy08duy08
-4850255262, -- 160kdaycnb109
-3381622523, -- 160kdaycnb1
-1254144943, -- khanhkaido9999
-1312230152, -- gigadian123
-4723792084, -- clmm98b
-1480130154, -- tokuda_jabanvn
-1129631079, -- apexbes2
-1490665232, -- DFGHTRU10
-3246732830, -- Hainclone2
-146022306, -- hainha0123456
-1810614004, -- Shadow_MainNoob
-1957434850, -- clonepk5
-4027558815, -- accquaydffirstsea1
-1423316156, -- ACE_xXAZPROGOD123Xx
-4048427595, --accquaydffirstsea21
-1322815101, -- azpro2k7
-2221229319, -- duongthai366
-1175626557, -- zxcandyxzz
-1821277569, -- Jack_Sama123
-1928941615, -- King_RareBox
-226801418, -- hieubom123
-660629515, -- LHPGamingVN
-170895715, -- ductx2004
-1075665647, -- khang20297
-1813673746, -- MagnusDiggory1
-175021965, -- huyduy909090
-3146985482, -- bl4ck1105
-4494066040, -- SimulatorDotio
-936844900, -- aztrear2
-4802073978, -- tuantuantuantuang
-1832777631, --EvilNumBer_1
-4254731743, --AHD_SIEUVIP
-1574447607, -- cacchutuoitom2000
-2045590029, -- Lucky_Oz4
-1221321256, -- bibimbin1
-2572841200, -- 4532Demon
-1421912436, -- TNAE_SsLiemDemonsS
-1782620303, -- NHD_ZxKhangSenPaixZ
-1461551082, -- tranvanvu17
-1067471780, -- GasFruit1
-1480395031, -- nhat8a10
-892917079, -- baxuan1242
-1426606839, -- hackcc16
-3899214734, -- chemhan78121
-3896699123, -- chemhan21323
-1370768463, -- hackcc11
-5607971206
 }
 _G.WhiteListed = true
         for _, v1 in pairs(listed) do
@@ -351,7 +217,7 @@ _G.kick = true
             MainFrame.Name = "MainFrame"
             MainFrame.Parent = Lago
             MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-            MainFrame.BackgroundColor3 = Color3.fromRGB(22, 29, 31)
+            MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             MainFrame.ClipsDescendants = true
             MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
             MainFrame.Size = UDim2.new(0, 0, 0, 0)
@@ -362,7 +228,7 @@ _G.kick = true
         
             LeftFrame.Name = "LeftFrame"
             LeftFrame.Parent = MainFrame
-            LeftFrame.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+            LeftFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             LeftFrame.Size = UDim2.new(0, 190, 0, 484)
         
             LeftCorner.CornerRadius = UDim.new(0, 5)
@@ -378,20 +244,20 @@ _G.kick = true
             GlowTabHolder.Size = UDim2.new(1, 30, 1, 30)
             GlowTabHolder.ZIndex = 0
             GlowTabHolder.Image = "rbxassetid://4996891970"
-            GlowTabHolder.ImageColor3 = Color3.fromRGB(15, 15, 15)
+            GlowTabHolder.ImageColor3 = Color3.fromRGB(0, 0, 0)
             GlowTabHolder.ScaleType = Enum.ScaleType.Slice
             GlowTabHolder.SliceCenter = Rect.new(20, 20, 280, 280)
             
             
             Title.Name = "Title"
             Title.Parent = LeftFrame
-            Title.BackgroundColor3 = Color3.fromRGB(255, 0, 11)
+            Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Title.BackgroundTransparency = 1.000
             Title.Position = UDim2.new(0.097560972, 0, 0.0475206636, 0)
             Title.Size = UDim2.new(0, 111, 0, 34)
             Title.Font = Enum.Font.GothamBold
             Title.Text = text
-            Title.TextColor3 = Color3.fromRGB(0, 166, 50)
+            Title.TextColor3 = Color3.fromRGB(255, 255, 255)
             Title.TextSize = 25.000
             Title.TextXAlignment = Enum.TextXAlignment.Left
         
@@ -698,7 +564,7 @@ _G.kick = true
                 Container.CanvasSize = UDim2.new(0, 0, 0, 0)
                 Container.ScrollBarThickness = 5
                 Container.Visible = false
-                Container.ScrollBarImageColor3 = Color3.fromRGB(71, 76, 84)
+                Container.ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255)
         
                 ContainerLayout.Name = "ContainerLayout"
                 ContainerLayout.Parent = Container
@@ -767,7 +633,7 @@ _G.kick = true
         
                     Button.Name = "Button"
                     Button.Parent = Container
-                    Button.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Button.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
                     Button.ClipsDescendants = true
                     Button.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
                     Button.Size = UDim2.new(0, 457, 0, 43)
@@ -810,7 +676,7 @@ _G.kick = true
                     CircleSmall.Parent = Circle
                     CircleSmall.Active = true
                     CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-                    CircleSmall.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    CircleSmall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     CircleSmall.BackgroundTransparency = 1.000
                     CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
                     CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -859,7 +725,7 @@ _G.kick = true
         
                     Toggle.Name = "Toggle"
                     Toggle.Parent = Container
-                    Toggle.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Toggle.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
                     Toggle.ClipsDescendants = true
                     Toggle.Position = UDim2.new(0.110937506, 0, 0.67653507, 0)
                     Toggle.Size = UDim2.new(0, 457, 0, 43)
@@ -998,7 +864,7 @@ _G.kick = true
         
                     Slider.Name = "Slider"
                     Slider.Parent = Container
-                    Slider.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Slider.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
                     Slider.ClipsDescendants = true
                     Slider.Position = UDim2.new(0.189062506, 0, 0.648612201, 0)
                     Slider.Size = UDim2.new(0, 457, 0, 60)
@@ -1158,7 +1024,7 @@ _G.kick = true
         
                     Dropdown.Name = "Dropdown"
                     Dropdown.Parent = Container
-                    Dropdown.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Dropdown.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
                     Dropdown.ClipsDescendants = true
                     Dropdown.Position = UDim2.new(0.110937499, 0, 0.67653507, 0)
                     Dropdown.Size = UDim2.new(0, 457, 0, 43)
@@ -1201,7 +1067,7 @@ _G.kick = true
                     CircleSmall.Parent = Circle
                     CircleSmall.Active = true
                     CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-                    CircleSmall.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    CircleSmall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     CircleSmall.BackgroundTransparency = 1.000
                     CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
                     CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -1355,7 +1221,7 @@ _G.kick = true
         
                         Item.Name = "Item"
                         Item.Parent = DropItemHolder
-                        Item.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                        Item.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
                         Item.ClipsDescendants = true
                         Item.Size = UDim2.new(0, 427, 0, 25)
                         Item.AutoButtonColor = false
@@ -1447,7 +1313,7 @@ _G.kick = true
         
                         Item.Name = "Item"
                         Item.Parent = DropItemHolder
-                        Item.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                        Item.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
                         Item.ClipsDescendants = true
                         Item.Size = UDim2.new(0, 427, 0, 25)
                         Item.AutoButtonColor = false
@@ -1659,7 +1525,7 @@ _G.kick = true
         
                     Colorpicker.Name = "Colorpicker"
                     Colorpicker.Parent = Container
-                    Colorpicker.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Colorpicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     Colorpicker.ClipsDescendants = true
                     Colorpicker.Position = UDim2.new(0.110937499, 0, 0.67653507, 0)
                     Colorpicker.Size = UDim2.new(0, 457, 0, 43)
@@ -1809,7 +1675,7 @@ _G.kick = true
         
                     Confirm.Name = "Confirm"
                     Confirm.Parent = Title
-                    Confirm.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Confirm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     Confirm.ClipsDescendants = true
                     Confirm.Position = UDim2.new(2.3791616, 0, 1.97633278, 0)
                     Confirm.Size = UDim2.new(0, 144, 0, 42)
@@ -2122,7 +1988,7 @@ _G.kick = true
         
                     Line.Name = "Line"
                     Line.Parent = Container
-                    Line.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Line.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
                     Line.ClipsDescendants = true
                     Line.Position = UDim2.new(0, 0, 0.70091325, 0)
                     Line.Size = UDim2.new(0, 457, 0, 4)
@@ -2146,7 +2012,7 @@ _G.kick = true
         
                     Label.Name = "Label"
                     Label.Parent = Container
-                    Label.BackgroundColor3 = Color3.fromRGB(0, 166, 58)
+                    Label.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
                     Label.ClipsDescendants = true
                     Label.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
                     Label.Size = UDim2.new(0, 457, 0, 43)
@@ -2198,7 +2064,7 @@ _G.kick = true
         
                     Textbox.Name = "Textbox"
                     Textbox.Parent = Container
-                    Textbox.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Textbox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
                     Textbox.ClipsDescendants = true
                     Textbox.Position = UDim2.new(0.0459499061, 0, 0.734449744, 0)
                     Textbox.Size = UDim2.new(0, 457, 0, 43)
@@ -2311,7 +2177,7 @@ _G.kick = true
         
                     Bind.Name = "Bind"
                     Bind.Parent = Container
-                    Bind.BackgroundColor3 = Color3.fromRGB(31, 41, 43)
+                    Bind.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     Bind.ClipsDescendants = true
                     Bind.Position = UDim2.new(0.40625, 0, 0.828947306, 0)
                     Bind.Size = UDim2.new(0, 457, 0, 43)
@@ -2583,25 +2449,25 @@ local remotes = {}
  end
  local plr = game.Players.LocalPlayer.Character.Name
 game.StarterGui:SetCore("SendNotification", {
-            Title = "This Messenge Sent From Saluna With Love",
+            Title = "This Messenge Sent From  With Love",
             Text = "Welcome To My Script! " ..plr,
             Duration = 15
           })
           wait()
 game.StarterGui:SetCore("SendNotification", {
-            Title = "This Messenge Sent From Saluna With Love",
-            Text = "THIS SCRIPT IS MADE BY IRENKISS.",
+            Title = "This Messenge Sent From ZunKing With Love",
+            Text = "THIS SCRIPT IS MADE BY ZunTrum.",
             Duration = 15
           })
           wait()
 game.StarterGui:SetCore("SendNotification", {
-            Title = "This Messenge Sent From Saluna With Love",
+            Title = "This Messenge Sent From ZunKing With Love",
             Text = "DON'T ABUSE THIS SCRIPT TOO MUCH.",
             Duration = 15
           })
           wait()
  
-                local win = Flux:Window("ZunKing (G11)", "MADE BY IRENKISS", Color3.fromRGB(0,166,58), Enum.KeyCode.F2)
+                local win = Flux:Window("ZunKing", "MADE BY ZunTrum", Color3.fromRGB(50,50,50), Enum.KeyCode.F2)
                 Flux:Notification("ANTI-STAFF AUTOMATICALLY TURNED ON PRESS F2 TO HIDE/SHOW GUI","OK")
         local page2 = win:Tab("FARMING", "http://www.roblox.com/asset/?id=9391995844")
         local page3 = win:Tab("ISLAND/TELEPORT", "http://www.roblox.com/asset/?id=9391995844")
@@ -2659,7 +2525,7 @@ game.StarterGui:SetCore("SendNotification", {
     page9:Line()
         page9:Label("â”‡ WEAPON SPAM (YORU FOR DEF FARMING) â”‡")
     page9:Line()
-    Speeds = 200
+    Speeds = 20
         page9:Slider("Yoru Speed",0,200,50,function(to)
             Speeds = to
             end)
@@ -3481,6 +3347,9 @@ end)
 page9:Line()
 page9:Label("â”‡ CANNON FARM â”‡")
 page9:Line()
+page9:Toggle("Cannon Farm Mob No Haki", false, function(daxc)
+    _G.cannonnohaki = daxc
+end)
 page9:Toggle("Cannon Farm Mob", false, function(daxc)
     _G.autocannonslow = daxc
 end)
@@ -3512,7 +3381,7 @@ spawn(function()
     while task.wait() do
         pcall(function()
 local plr = game.Players.LocalPlayer
-if _G.autocannonslow or _G.autocannonplr then
+if _G.autocannonslow or _G.autocannonplr or _G.cannonnohaki then
 for i,v in pairs(plr.Backpack:GetChildren()) do
 if v.Name == "Cannon Ball" then
 v.Parent = plr.Character
@@ -3540,7 +3409,8 @@ end)
 spawn(function()
     while task.wait(0) do
         pcall(function()
-            if _G.autocannon or _G.autocannonplr or _G.autocannonslow then
+            if _G.autocannon or _G.autocannonplr or _G.autocannonslow or _G.cannonnohaki then
+                fireclickdetector(workspace.Island11.CentralBuilding.Doors.Button.Button.ClickDetector)
                 local args = {
                     [1] = CFrame.new(Vector3.new(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame))
                 }
@@ -3562,7 +3432,7 @@ end)
 spawn(function()
     while task.wait(0) do
         pcall(function()
-            if _G.autocannon or _G.autocannonplr or _G.autocannonslow then
+            if _G.autocannon or _G.autocannonplr or _G.autocannonslow or _G.cannonnohaki then
                 repeat task.wait(0)
                     for i, v in pairs(game.workspace.ResourceHolder["Resources_" .. game.Players.LocalPlayer.UserId]:GetChildren()) do
                         if v.Name == "CannonBall" then
@@ -3585,8 +3455,7 @@ end)
 spawn(function()
     while wait(0) do
         pcall(function()
-            if _G.autocannon or  _G.autocannonplr  or _G.autocannonslow then
-                fireclickdetector(workspace.Island11.CentralBuilding.Doors.Button.Button.ClickDetector)
+                if _G.autocannon or  _G.autocannonplr  or _G.autocannonslow then
                 task.wait(0)
                 if not game.Players.LocalPlayer.PlayerGui.HealthBar.Frame.Status:FindFirstChild("BusoHaki") then
                     wait(0.5)
@@ -3604,7 +3473,7 @@ end)
 spawn(function() -- autofarm cannon
     while wait(0) do
         pcall(function()
-            if _G.autocannon or _G.autocannonslow then
+            if _G.autocannon or _G.autocannonslow or _G.cannonnohaki then
                 for _,v in pairs(game.Workspace.Enemies:GetChildren()) do
                     if string.find(v.Name, " Boar")
                     and v:FindFirstChild("HumanoidRootPart") then
@@ -3831,7 +3700,7 @@ end)
         
         page1:Button("Hide Name", function()
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.TextColor3 = Color3.new(255,0,0)
-game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Irenkiss"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "ZunTrum"
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Header.Text = "PROTECTED BY:"
 end)
         page1:Button("Fake Reset Stats",function()
@@ -4554,13 +4423,12 @@ end
        end)
     end
     end)
+    page2:Label("â”‡  DEVIL FRUIT â”‡) ")
     page2:Line()
-        page2:Label("â”‡  DEVIL FRUIT â”‡ (F9 TO CHECK FRUIT AND BOX) ")
-            page2:Line()
-            page2:Toggle("Auto Pickup Fruit", false, function(fruitty)
+    page2:Toggle("Auto Pickup Fruit", false, function(fruitty)
 getgenv().pickkk = fruitty
 while getgenv().pickkk do wait()
-    pcall(function()
+pcall(function()
 for i,v in pairs(game:GetService("Workspace").Trees.Tree:GetDescendants()) do
 if v:IsA("ClickDetector") then
 fireclickdetector(v)
@@ -4572,91 +4440,30 @@ end)
 page2:Toggle("Rare and Ultra Rare Fruit Checking", false, function(rnu)
 getgenv().checkrnu = rnu
 while getgenv().checkrnu do wait()
-    pcall(function()
-    for i, player in pairs(game.Players:GetChildren()) do 
-	    for i, backpack in pairs(player:GetChildren()) do
-	        if backpack.Name == "Backpack" then 
-	            for i, v in pairs(backpack:GetChildren()) do
-	                if v.Name == ("Gravity Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Ope Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Venom Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Candy Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Hollow Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Chilly Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Gas Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Flare Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Light Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Smoke Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Sand Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Rumble Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Magma Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Snow Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Quake Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Phoenix Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Dark Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-	               if v.Name == ("Vampire Fruit") then
-	                print("================================================================================")
-	                print(player, v)
-	                end
-end	                
-end
-end
-end
-wait(2)
-end)
+pcall(function()
+    local UltraRares = {"Dark Fruit","Quake Fruit","Vampire Fruit","Phoenix Fruit"}
+    local Rares = {"Alice Fruit","Gas Fruit","Plasma Fruit","Snow Fruit","Magma Fruit","Rumble Fruit","Sand Fruit","Light Fruit","Flare Fruit","Smoke Fruit","Chilly Fruit","Hollow Fruit","Candy Fruit","Venom Fruit","Ope Fruit","Gravity Fruit"}
+    for _, player in pairs(game.Players:GetPlayers()) do
+                    for _, container in ipairs({player.Backpack, player.Character}) do
+                        for _, item in ipairs(container:GetChildren()) do
+                            if table.find(Rares,item.Name) or table.find(UltraRares,item.Name) or 
+                            string.find(item.Name,"Rare Box") or string.find(item.Name,"Ultra Rare Box") then
+                                local text = player.Name .. ": " .. item.Name
+                                game.StarterGui:SetCore("SendNotification", {
+                                    Title = "Fruit/Box Notifier", 
+                                    Text = text, 
+                                    Duration = 1
+                                })
+                                print(text)
+                            end
+                        end
+                    end
+                end
+                wait(2)
+end)	                
 end
 end)
+
 page2:Toggle("Common and Uncommon Fruit Checking", false, function(cnu)
 getgenv().checkcnu = cnu
 while getgenv().checkcnu do wait()
@@ -5663,7 +5470,7 @@ end
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Merchants.QuestHakiMerchant.HumanoidRootPart.CFrame
         else
          game.StarterGui:SetCore("SendNotification", {
-            Title = "This Messenge Sent From Saluna With Love",
+            Title = "This Messenge Sent From ZunKing With Love",
             Text = "Rayleigh haven't spawned yet.",
             Duration = 3
           })
@@ -6009,8 +5816,8 @@ end
     page4:Label(" â”‡ AFFINITIES â”‡ ")
         page4:Line()
         
-affpoint = 9
-affty = 1.9
+affpoint = 8
+affty = 1.8
 page4:Slider("Affinities Point", 1, 10, 8,function(treo)
 affpoint = treo
 if affpoint == 1 then affty = 1.1
@@ -6685,6 +6492,34 @@ end)
 page5:Line()
     page5:Label(" â”‡ MISC SKILL â”‡ ")
         page5:Line()
+        page5:Toggle("GodMode-Auto Use",false,function(GodMode)
+            while wait (10) do
+            local plr = game.Players.LocalPlayer
+local Argument = getsenv(plr.Character.Powers.Bomb).VTCcpkghc
+
+local args = {
+    [1] = Argument,
+    [2] = "BombPower6",
+    [3] = "StartCharging",
+    [4] = CFrame.new(0,0,0),
+    [5] = workspace:WaitForChild("Rock"),
+    [7] = "Right"
+}
+
+plr.Character.Powers.Bomb.RemoteEvent:FireServer(unpack(args))
+wait(0)
+local args = {
+    [1] = Argument,
+    [2] = "BombPower6",
+    [3] = "StopCharging",
+    [4] = CFrame.new(0,0,0),
+    [5] = workspace:WaitForChild("Rock"),
+    [6] = 0/0
+}
+
+plr.Character.Powers.Bomb.RemoteEvent:FireServer(unpack(args))
+end
+        end)
         page5:Toggle("Random Teleport",false,function(tprandom)
 getgenv().bgtyhn = tprandom
 while getgenv().bgtyhn do wait()
@@ -6737,7 +6572,7 @@ local plr = tostring(game.Players.LocalPlayer)
 while getgenv().wmpmrewpg do wait()
 pcall(function()
 workspace:WaitForChild("UserData"):WaitForChild("User_"..plrid):WaitForChild("UpdateHaki"):FireServer()
-wait(3)
+wait(1.5)
 end)
 end
 end)
@@ -6765,7 +6600,7 @@ page5:Line()
                 Player:Add(v.Name)
             end
         end)
-                            distance = 15
+                            distance = 0
         page5:Slider("Distance",  0, 200,15,function(bool)
             distance = bool
         end)
@@ -6876,12 +6711,12 @@ end)
 page5:Line()
     page5:Label(" â”‡ CAMP PLAYER â”‡")
     page5:Line()
-    distancetp = 15
+    distancetp = 0
     page5:Slider("TP Distance",  0, 200,15,function(gooo)
     distancetp = gooo
     end)
-    page5:Toggle("Teleport To All Spawned Player", false, function(irendz)
-     getgenv().emladepnhat = irendz
+    page5:Toggle("Teleport To All Spawned Player", false, function(Zundz)
+     getgenv().emladepnhat = Zundz
  while getgenv().emladepnhat do wait()
 pcall(function()
  for i,v in pairs(game.Players:GetChildren()) do
@@ -6903,6 +6738,47 @@ end
 end)
 end
 end)
+page5:Toggle("String Camp", false, function(String)
+    _G.StringCamp = String
+end)
+
+spawn(function()
+    while wait(0.1) do
+        if _G.StringCamp then
+            pcall(function()
+                local char = game.Players.LocalPlayer.Character.HumanoidRootPart
+                if not game.Players.LocalPlayer.Character.Humanoid.Sit then
+                    char.CFrame = CFrame.new(1495, 280, 2167)
+                else
+                    local targetPlayer = game.Players:FindFirstChild(SelectedKillPlayer)
+                    if targetPlayer and targetPlayer.Character and targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                        targetPlayer.Character.HumanoidRootPart.CFrame = char.CFrame * CFrame.new(0, 0, -3)
+
+                        for _, v in pairs(game:GetService("Workspace"):GetChildren()) do
+                            if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") then
+                                if v.Name == SelectedKillPlayer then
+                                    spawn(function()
+                                        pcall(function()
+                                            local position = char.CFrame * CFrame.new(0, 0, -5)
+                                            local x = getsenv(game.Players.LocalPlayer.Character.Powers.String).VTCjwbvx
+                                            local cf = game.Players:WaitForChild(SelectedKillPlayer).Character.Head
+                                            local khrp = v.HumanoidRootPart
+
+                                            game.Players.LocalPlayer.Character.Powers.String.RemoteEvent:FireServer(x, "StringPower8", "Start", khrp.CFrame, cf)
+                                            wait(3)
+                                            game.Players.LocalPlayer.Character.Powers.String.RemoteEvent:FireServer(x, "StringPower8", "End", position, char.CFrame)
+                                        end)
+                                    end)
+                                end
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
     page5:Toggle("Quake Camp" , false, function(state)
 _G.AutoQuake = state
 while _G.AutoQuake do
@@ -6915,15 +6791,56 @@ local vppt = x.VTCebvc
     for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
         if v.Name == Choose2 then
             game:GetService("Players").LocalPlayer.Character.Powers.Quake.RemoteEvent:FireServer(vppt,"QuakePower4", "StopCharging",workspace.IslandCaver.Stones.Stone,v.HumanoidRootPart.CFrame,100,Vector3.new(-290.4129333496094, 266.8401794433594, -103.8988037109375))
-        wait(0.15)
+        wait()
         end
     end
     end
     end)
-    until game.Players:FindFirstChild(SelectedKillPlayer).Character.Humanoid.Health <= 0 or not _G.AutoQuake
+    until game.Players:FindFirstChild(SelectedKillPlayer).Character.Humanoid.Health
     end
 end)
 ----------
+page5:Toggle("Cannon camp", false, function(campCannon)
+    _G.CannonCamp = campCannon
+end)
+
+spawn(function()
+    while wait(0.1) do
+        if _G.CannonCamp then
+            pcall(function()
+                local Plr = game.Players.LocalPlayer
+                local cannonbb = Plr.Backpack:FindFirstChild("Cannon Ball")
+                local cannonBallc = Plr.Character:FindFirstChild("Cannon Ball")
+
+                if cannonbb then
+                    cannonbb.Parent = Plr.Character
+                end
+                
+                cannonBallc = Plr.Character:FindFirstChild("Cannon Ball")
+                if cannonBallc then
+                    cannonBallc.RemoteEvent:FireServer(CFrame.new(0, 0, 0))
+                    cannonBallc.RemoteEvent:FireServer(CFrame.new(0, 0, 0))
+                end
+
+                for _, d in pairs(game.Workspace:GetChildren()) do
+                    if d.Name ~= Plr.Name and d.Name == SelectedKillPlayer then
+                        local humanoidRootPart = d:FindFirstChild("HumanoidRootPart")
+                        if humanoidRootPart then
+                            spawn(function()
+                                for _, v in pairs(game.Workspace.ResourceHolder["Resources_"..Plr.UserId]:GetChildren()) do
+                                    if v.Name == "CannonBall" then
+                                        v.CFrame = humanoidRootPart.CFrame
+                                    end
+                                end
+                            end)
+                        end
+                    end
+                end
+            end)
+        end
+    end
+end)
+
 page5:Toggle("Light Camp" ,false, function(campbylight)
 getgenv().campto2 = campbylight
  while getgenv().campto2 do wait()
@@ -7472,6 +7389,49 @@ end)
     page8:Line()
         page8:Label("SERVER")
             page8:Line()
+            page8:Button("GodMode",function(GodMode)
+                local plr = game.Players.LocalPlayer
+    local Argument = getsenv(plr.Character.Powers.Bomb).VTCcpkghc
+    
+    local args = {
+        [1] = Argument,
+        [2] = "BombPower6",
+        [3] = "StartCharging",
+        [4] = CFrame.new(0,0,0),
+        [5] = workspace:WaitForChild("Rock"),
+        [7] = "Right"
+    }
+    
+    plr.Character.Powers.Bomb.RemoteEvent:FireServer(unpack(args))
+    wait(0)
+    local args = {
+        [1] = Argument,
+        [2] = "BombPower6",
+        [3] = "StopCharging",
+        [4] = CFrame.new(0,0,0),
+        [5] = workspace:WaitForChild("Rock"),
+        [6] = 0/0
+    }
+    
+    plr.Character.Powers.Bomb.RemoteEvent:FireServer(unpack(args))
+            end)
+            page8:Button("Anti AFK", function()
+                repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+local plrs = game.Players
+local plr = plrs.LocalPlayer
+local plrg = plr.PlayerGui
+local vu = game:GetService("VirtualUser")
+local placeid = game.PlaceId
+if placeid ~= 3237168 then
+    return
+end
+plr.Idled:connect(function()
+    vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+    wait(1)
+    vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+            end)
 page8:Button("Low Graphic Mode", function()
 workspace:FindFirstChildOfClass('Terrain').WaterWaveSize = 0
 	workspace:FindFirstChildOfClass('Terrain').WaterWaveSpeed = 0
@@ -7827,5 +7787,5 @@ end)
     end
     end
 if _G.WhiteListed == false and _G.kick == false then 
-game.Players.LocalPlayer:Kick("KICKED      SALUNA Notify: Go Buy Script")
+game.Players.LocalPlayer:Kick("KICKED      ZunKing Notify: Go Buy Script")
 end
