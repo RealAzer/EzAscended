@@ -23,8 +23,7 @@ local Pedo = {
     928623624, -- TrashPanda2361
     30049170, -- Farquanetta
     474452017 -- Bige0n
-    }
-
+}
 for _, v in pairs(game:GetService("Players"):GetPlayers()) do
     for _, v1 in pairs(Pedo) do
         if v.UserId == v1 then
@@ -32,7 +31,6 @@ for _, v in pairs(game:GetService("Players"):GetPlayers()) do
         end
     end
 end
-
 game:GetService("Players").PlayerAdded:Connect(function(r)
     for _, v in pairs(Pedo) do
         if r.UserId == v then
@@ -43,12 +41,7 @@ end)
 local listed = {
 }
 _G.WhiteListed = true
-        for _, v1 in pairs(listed) do
-            if game.Players.LocalPlayer.UserId == v1 then
-_G.WhiteListed = true
-            end
-        end
-if _G.WhiteListed or _G.bypasschothgngukhoi then
+if _G.WhiteListed then
 _G.kick = true
   if game.placeId == 8569358381 or game.placeId == 3237168 then
     local vu = game:GetService("VirtualUser")
